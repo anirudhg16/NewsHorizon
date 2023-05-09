@@ -1,0 +1,79 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner{
+    background-color: rgb(245, 4, 4);
+    color: white;
+    font-weight: bolder;
+    
+}
+
+body{
+    background-color: rgb(0, 0, 22);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.box
+{   justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+    display: flex;
+
+    padding: 10px;
+    background-color: rgb(254, 247, 247);
+    height: 450px;
+    width:auto;
+    
+    border: 1px dotted rgb(1, 1, 32);
+
+    
+    white-space:pre-wrap;
+    overflow-wrap:break-word;
+    text-overflow:ellipsis;
+
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+
+  
+}
+.box h5{
+    font-weight: bold;
+    font-size: 15px;
+}
+.article-img
+{
+    width:300;
+    height: 150px;
+}
+.box2 {
+    max-width:max-content;
+    max-height: 100px;
+    overflow-wrap: break-word; 
+    display:inline-block;
+  white-space: pre-wrap;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+}
+.readBtn
+{
+    justify-content:center;
+    display: flex;
+}
+.box2::-webkit-scrollbar { 
+    display: none; 
+}
+.active{
+    background-color: rgb(215, 185, 185);
+    font-weight:500;
+    border-radius: 30px;
+}
+.nav-link:hover{
+    background-color: rgb(234, 227, 227);
+    font-weight:100;
+    border-radius: 30px;
+}
+.nav-link{
+    border-radius: 30px;
+}
